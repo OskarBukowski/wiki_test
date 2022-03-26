@@ -11,7 +11,10 @@ services:
     volumes:
       - psql_backup:/home/Desktop/docker/backup
 
-  
+  api:
+    image: api:1.0
+    ports:
+      - 5000:5000
 
 volumes:
   psql_backup:

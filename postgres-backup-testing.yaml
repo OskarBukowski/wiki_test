@@ -18,7 +18,7 @@ services:
     container_name: ubuntu_host
     image: ubuntu
     restart: on-failure
-#    command: ["sleep","infinity"] --> command that keep container working even if it is not needed
+#    command: ["sleep","infinity"]
     networks:
       - network
 
